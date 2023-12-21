@@ -8,7 +8,7 @@ import Projects from './pages/Projects.js';
 
 
 function App() {
-  const URL = process.env.REACT_APP_URL || "http://localhost:4000";
+  const URL = process.env.REACT_APP_URL || "http://localhost:4000/";
 
   return (
     <div className='App'>
